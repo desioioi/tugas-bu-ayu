@@ -1,21 +1,37 @@
-let nama = "Desi Dwi Fatmawati";
-let alamat = "Bedono Rt05,Rw,01";
-let usia = "17 tahun"
-let TTL = "Demak,02 Januari 2008";
-let gender = "Perempuan";
-let agama = "Islam";
-let email = "desidwifatmawati85@gmail.com";
-let berat = "50kg";
-let tinggi = "157cm";
-let hobi ="mancing";
-let cita = "ingin menjadi orang sukses";
-let stasus = "Pelajar";
-let sekolah = "SMKN 1 Sayung";
-let jurusan = "PPLG";
+// variabel dengan let
+let nama = "Desi dan Desy";
 
-document.write("nama saya adalah "+ nama +"saya tinggal di "+ alamat +
-    "pada tahun 2025 ini usia saya adalah" + usia +"saya lahir di" + TTL +"jenis kelamin saya adalah"+gender+
-    "saya beragama"+ agama +"alamat email saya" + email +"saya memiliki berat badan"+berat +
-    "dengan tinggi" +tinggi +"saya senang"+ hobi +"karena saya memiliki cita cita" +cita +"saat ini saya adalah seorang" + status +
-    "yang bersekolah di" + sekolah +"pada jurusan" +jurusan)
+//tampilan data
+console.log(nama);
 
+//kita ubah nilai variabel nama
+let tersangka = "Agus Buntung";
+console.log(tersangka)
+
+//2. variabel dengan var
+var namaDepan = "Gus";
+console.log(namaDepan);
+namaDepan= "Maulana";
+console.log(namaDepan);
+
+//bedanya dengan let
+let jajan = "Seblak";
+{
+    let jajan = "Ayam Geprek";
+    console.log(jajan);
+}
+console.log(jajan);
+
+//jika dengan var
+let traktir = "Bakso Mercon";
+{
+    let traktir = "es teh jumbo";
+    console.log(traktir);
+}
+console.log(jajan);
+
+//variabel dengan const
+conts TTL = "1 Januari 2025";
+console.log(TTL);
+//const TTL = "1 Pembruari 2025"
+//ini tidak boelh dilakukan karena cont nilainya tetap
